@@ -8,9 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
-  <link href="images/apple-touch-startup-image-320x460.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
-  <link href="images/apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+  <link rel="apple-touch-icon" href="/resources/images/apple-touch-icon.png" />
+  <link href="/resources/images/apple-touch-startup-image-320x460.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
+  <link href="/resources/images/apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
   <title>슈퍼윙스키즈카페</title>
   <link rel="stylesheet" href="/resources/css/framework7.css">
   <link rel="stylesheet" href="/resources/css/style.css">
@@ -95,16 +95,16 @@
             <!--메인 버튼-->
             <nav class="main-nav">
               <ul>
-                <li><a href="shop.html"><img src="/resources/images/icons/black/shop.png" alt=""/><span>매장소개</span></a></li>
+                <li><a href="shop"><img src="/resources/images/icons/black/shop.png" alt=""/><span>매장소개</span></a></li>
                 <li><a href="#" data-popup=".popup-12" class="open-popup"><img src="/resources/images/icons/black/qr.png"/><span>QR코드</span></a></li>
                 <li><a href="#" data-popup=".popup-login" class="open-popup"><img src="/resources/images/icons/black/entrance.png"/><span>로그인</span></a></li>
                 <!--Login After  <li><a href=""><img src="/resources/images/icons/black/logout.png"/><span>로그아웃</span></a></li>-->
-                <li><a href="account.html" ><img src="/resources/images/icons/black/users.png"/><span>내 정보</span></a></li>
-                <li><a href="event_list.html"><img src="/resources/images/icons/black/gift.png"/><span>이벤트</span></a></li>
-                <li><a href="about.html"><img src="/resources/images/icons/black/super.png"/><span>키즈카페 소개</span></a></li>
-                <li><a href="food.html"><img src="/resources/images/icons/black/food.png"/><span>메뉴안내</span></a></li>
+                <li><a href="account" ><img src="/resources/images/icons/black/users.png"/><span>내 정보</span></a></li>
+                <li><a href="event_list"><img src="/resources/images/icons/black/gift.png"/><span>이벤트</span></a></li>
+                <li><a href="about"><img src="/resources/images/icons/black/super.png"/><span>키즈카페 소개</span></a></li>
+                <li><a href="food"><img src="/resources/images/icons/black/food.png"/><span>메뉴안내</span></a></li>
                 <li><a href=""><img src="/resources/images/icons/black/ticket.png"/><span>티켓구입(준비중)</span></a></li>
-                <li><a href="contact.html"><img src="/resources/images/icons/black/contact.png"/><span>고객센터</span></a></li>
+                <li><a href="contact"><img src="/resources/images/icons/black/contact.png"/><span>고객센터</span></a></li>
               </ul>
             </nav>
           </div>
@@ -130,7 +130,7 @@
           <p>모바일 회원가입 1,000마일리지 적립</p>
           <p>매장에서도 가입이 가능합니다.</p>
           <br><br>
-          <a href="agree.html" class="close-popup">회원가입</a>
+          <a href="agree" class="close-popup">회원가입</a>
         </div>
       </div>
       <div class="close_popup_button">
