@@ -21,6 +21,7 @@ public class MainController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
+<<<<<<< HEAD
 	@RequestMapping(value = "/main", method = RequestMethod.GET)
 	public ModelAndView Main(Locale locale, Model model) {
 		ModelAndView mav = new ModelAndView();
@@ -172,5 +173,24 @@ public class MainController {
 		System.out.println("event3");
 		return mav;
 	}
+=======
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public ModelAndView Main(Locale locale, Model model) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("main");
+		System.out.println("진입");
+		return mav;
+	}
+	
+	//페이지 호출 예제
+//	@RequestMapping(value = "/abc", method = RequestMethod.GET)
+//	public ModelAndView home(Locale locale, Model model) {
+//		ModelAndView mav = new ModelAndView();
+//		mav.setViewName("main");
+//		System.out.println("진입");
+//		return mav;
+//	}
+	
+>>>>>>> branch 'master' of https://github.com/ljr1427/mwings.git
 }
 
